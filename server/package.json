@@ -1,0 +1,22 @@
+{
+  "name": "corona-helper",
+  "version": "1.0.0",
+  "description": "Backend for the corona-helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itschip/corona-helper.git"
+  },
+  "author": "Christopher Gjelten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itschip/corona-helper/issues"
+  },
+  "homepage": "https://github.com/itschip/corona-helper#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
