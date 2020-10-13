@@ -9,13 +9,13 @@ import { HomeContainer } from '../components/Home/components/HomeContainer';
 export const Routes = () => {
   return (
     <Router>
-      <HeaderContainer />
-      <Switch>
-        <div>
-          <Route path="/" exact component={HomeContainer} /> 
-          <Route path="/feed" component={FeedContainer}/>
-        </div>
-      </Switch>
+      <div>
+        <HeaderContainer />
+        <Switch>
+            <Route path="/" exact component={HomeContainer} /> 
+            <Route path="/feed" component={FeedContainer}/>
+        </Switch>
+      </div>
     </Router>
   )
 }
