@@ -1,9 +1,12 @@
 const express = require('express');
+var cors = require('cors');
 var mysql = require('mysql');
 
 const app = express();
 
 const PORT = 5000;
+
+app.use(cors())
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}`)
@@ -25,7 +28,7 @@ var con = mysql.createConnection({
 
 // Check forc connection
 
-con.connect(async (err) => {
+con.connect((err) => {
   if (err) throw err;
   console.log('Connected');
   app.get('/connection', (req, res) => {
@@ -39,6 +42,8 @@ function getPost(callback) {
     callback(result)
   })
 }
+
+
 
 function setPost(callback) {
   // Sets the post to the databas
