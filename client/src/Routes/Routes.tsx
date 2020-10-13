@@ -8,7 +8,7 @@ import { HomeContainer } from '../components/Home/components/HomeContainer';
 
 export const Routes = () => {
   return (
-    <Router>´
+    <Router>
       <HeaderContainer />
       <Switch>
         <div>
