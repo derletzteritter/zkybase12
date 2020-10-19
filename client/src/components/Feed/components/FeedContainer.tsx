@@ -5,7 +5,7 @@ import { FeedList } from './FeedList';
 import { useFeed } from '../hooks/useFeed';
 
 export const FeedContainer = () => {
-  const { feedList, setFeedList } = useFeed()
+  const { feedList, setFeedList } = useFeed();
 
   const getPostClient = () => {
     fetch('posts')

@@ -46,7 +46,7 @@ function getPost(callback) {
 
 
 function setPost(callback) {
-  // Sets the post to the databas
+  // Sets the post to the database
 }
 
 
