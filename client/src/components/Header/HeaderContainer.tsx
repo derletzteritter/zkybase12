@@ -29,7 +29,7 @@ export const HeaderContainer = () => {
       <AppBar position="static" className={classes.header}>
         <Toolbar>
           <Typography style={{ fontWeight: 'bold' }} variant="h6" className={classes.title}>
-            zkybase12 - COVID-19 Project 
+            zkybase12 - COVID-19 Helper
           </Typography>
           <Button style={{ fontWeight: 'bold' }} color="inherit">Login</Button>
           <Button style={{ fontWeight: 'bold' }} color="inherit">Signup</Button>
