@@ -9,6 +9,10 @@ export const Auth = () => {
     setUser(true)
   }
 
+  const handleRegister = () => {
+    setUser(true)
+  }
+
   return (
     <div>
       <input></input>

@@ -44,8 +44,6 @@ async function getPost(callback) {
   })
 }
 
-
-
 function setPost(name, content) {
   // Sets the post to the database
   const query = "INSERT INTO posts (name, content) VALUES (?, ?) "
